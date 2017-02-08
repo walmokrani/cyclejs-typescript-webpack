@@ -74,8 +74,7 @@ module.exports = {
                     conf.paths.tmp,
                     conf.paths.src
                 ]
-            },
-            open: false
+            }
         })
     ],
     devtool: 'source-map',

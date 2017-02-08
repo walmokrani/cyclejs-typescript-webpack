@@ -80,8 +80,7 @@ module.exports = {
                 baseDir: [
                     conf.paths.dist
                 ]
-            },
-            open: false
+            }
         })
     ],
     resolve: {
