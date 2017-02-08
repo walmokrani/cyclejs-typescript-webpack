@@ -53,9 +53,7 @@
     "serve:dist": "webpack --config webpack.conf.dist.js --watch",
     "prebuild": "rimraf .tmp dist",
     "build": "webpack --config webpack.conf.dist.js",
-    "pretest": "rimraf coverage",
     "test": "karma start --single-run",
-    "pretest:auto": "rimraf coverage",
     "test:auto": "karma start --auto-watch"
   }
 }
